@@ -1,0 +1,125 @@
+body {
+  background: #faf3dd;
+  margin:0%;
+}
+
+header {
+  background: #283044;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+  width:100%;
+}
+nav {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left:70px;
+  padding-top: 23px;
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#mission {
+  padding-top: 50px;
+}
+
+#missionstatement {
+  font-size: 25px;
+   padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.fact-gens{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.fact-gen-1{
+	width: 50%;
+	text-align: center;
+  font-size:25px;
+  color: #392f5a;
+}
+.fact-gen-2{
+	width: 50%;
+	text-align: center;
+  font-size: 25px;
+  color: #392f5a;
+}
+
+#fact {
+  font-size:25px;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+#factSource {
+  font-size: 20px;
+}
+
+#misInfo {
+text-decoration: underline;
+  font-size:25px;
+}
+
+#proofInfo {
+  font-size:20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#misSource {
+  font-size: 20px;
+}
+
+.definitions {
+  background: #f9dbbd;
+   padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+  margin-top:10%;
+}
+#defHeadOne {
+  font-size: 35px;
+  color:#22223b;
+}
+#defHeadTwo {
+  font-size: 35px;
+  color:#22223b;
+}
+
+.defURLs {
+  color:#22223b;
+  text-decoration-color: #22223b;
+}
+.defAnswers {
+  margin-left:10%;
+  margin-right:10%;
+  font-size: 25  px;
+  color: #22223b;
+}
