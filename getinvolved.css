@@ -1,0 +1,100 @@
+body {
+  background: #faf3dd;
+  margin:0%;
+}
+
+header {
+  background: #283044;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+  width:100%;
+}
+nav {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left:70px;
+  padding-top: 23px;
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.involvements {
+  width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#gilogo {
+  margin-top: 2em;
+  width:35%;
+  height: auto;
+}
+
+.donate{
+	width: 50%;
+	text-align: center;
+  font-size:30px;
+  color: #392f5a;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.volunteer{
+	width: 50%;
+	text-align: center;
+  font-size: 30px;
+  color: #392f5a;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.partner {
+  font-size: 30px;
+  color:#392f5a;
+}
+
+#hands {
+  width: 400px;
+  border-radius: 50%;
+  height: auto
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  font-size:30px;
+  font-weight: 200;
+}
+
+.volHeads {
+  font-size:30px;
+}
+.volDes {
+  font-size:25px;
+}
+
+.imgItems {
+  width: 400px;
+  height: auto;
+}
